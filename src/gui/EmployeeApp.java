@@ -1,3 +1,4 @@
+package gui;
 
 import java.io.EOFException;
 import java.io.FileInputStream;
