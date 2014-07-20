@@ -36,7 +36,7 @@ public class TestGraph {
 		
 		
 		String[] names = {"Peter", "Jane", "Mark", "Cindy", "Wendy"};
-		ArrayList<AbstractGraph.Edge> edgeList = ArrayList<>();
+		ArrayList<AbstractGraph.Edge> edgeList = new ArrayList<>();
 		edgeList.add(new AbstractGraph.Edge(0, 2));
 		edgeList.add(new AbstractGraph.Edge(1, 2));
 		edgeList.add(new AbstractGraph.Edge(2, 4));
