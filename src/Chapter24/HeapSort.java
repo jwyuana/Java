@@ -15,7 +15,7 @@ public class HeapSort {
 
 }
 
-class Heap<T extends Comparable<T>>{
+class Heap<T extends Comparable>{
 	private ArrayList<T> list = new ArrayList<T>();
 	
 	public Heap(){
